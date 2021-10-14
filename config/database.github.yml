@@ -3,6 +3,6 @@ test:
   encoding: unicode
   host: localhost
   port: 5432
-  username: postgres
-  password: postgres
+  username: belisabettega
+  password: <%= ENV['SHALL_WE_DANCE_DATABASE_PASSWORD'] %>
   database: shall_we_dance_test
