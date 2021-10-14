@@ -4,7 +4,7 @@
 
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: #f6f8fA;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -12,5 +12,16 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 100px;
+}
+
+.home-banner{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), asset-url("tango.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: white;
+  display: flex;
+  align-items: center;
 }
